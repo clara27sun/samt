@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background: rgb(2, 2, 19) ;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.1s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover{
+    opacity: 70%;
+}
+
+nav{
+    display: flex;
+    position: fixed;
+    margin-top: 1.5%;
+    background-color: black;
+    opacity: 80%;
+    padding: 06px;
+    border: 0;
+    margin: 0;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 2px 80px;
+    margin-top: 1%;
+}
+
+.black{
+    background-image: url(Captura\ de\ tela\ 2023-11-30\ 163858.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 210vh;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: "sotora";
+    src: url(QafidutRegular-K7Dao.otf);
+}
+
+@font-face {
+    font-family: "skeina";
+    src: url(Skeina.otf);
+}
+
+
+.ft1 h1{
+    margin-top: 35%;
+    font-family: sotora;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 45px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.ft1 h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}
+
+.mus .mine{
+    display: flex;
+}
+
+.mus div img{
+    border-radius: 35rem;
+    box-shadow: 5px 5px 10px rgb(45, 37, 116);
+    margin-left: 10%;
+    width: 300px;
+}
+
+.tit1{
+    text-decoration: none;
+    text-align: center;
+    font-family: skeina;
+    letter-spacing: 1px;
+}
+
+.tit{
+    text-decoration: none;
+    text-align: left;
+    margin-left: 34%;
+    font-family: skeina;
+    letter-spacing: 1px;
+}
+.mus div p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    margin-left: 2%;
+    margin-right: 10%;
+    text-align: left;
+}
+
+.vertical{
+    height: 100px;
+    width: 3px;
+    margin-left: 20%;
+}
+
+.divdg{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.divdg img{
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 1px 4px 6px seagreen;
+}
+
+#dog{
+    background: linear-gradient( 180deg,
+        rgb(2,2,19) ,
+        rgb(153, 83, 75)
+    ) ;
+    background-size: 100%;
+}
+
+.dog p{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+a{
+    color: #b963d3;
+    transition: 0.1s;
+}
+
+a:hover{
+    color: #8419a5;
+    opacity: 80%;
+}
+
+li button{
+    background-color: rgb(131, 127, 74);
+    border: 1px solid #ffffff;
+    width: 100px;
+    height: 40px;
+    border-radius: 40rem;
+}
+
+.social{
+    display: flex;
+}
+
+.social img{
+    margin-left: 3%;
+}
+
+.social h2{
+    margin-left: 68 0px;
+}
