@@ -50,8 +50,8 @@ nav ul li{
 .black{
     background-image: url(Captura\ de\ tela\ 2023-11-30\ 163858.png);
     background-repeat: no-repeat;
-    background-size: 110%;
-    width: 240vh;
+    background-size: 100%;
+    width: 210vh;
     height: 100vh;
 }
 
