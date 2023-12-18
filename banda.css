@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     border: 0;
 	box-sizing: border-box ;
@@ -12,14 +12,6 @@ body{
     color: white;
 }
 
-@media screen and (min-width:600px) and (max-width:1024px) {
-body{
-background: green;
-}
-p{
-display: none;
-}
-}
 
 h1{
     text-align: center;
@@ -64,7 +56,8 @@ nav ul li{
     background-image: url(WhatsApp\ Image\ 2023-12-03\ at\ 10.50.43.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
-
+    width: 210vh;
+    height: 100vh;
 }
 
 @font-face {
